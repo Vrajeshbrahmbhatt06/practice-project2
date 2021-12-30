@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100vw;
+    background: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)),url(bg5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    margin: auto;
+    width:1200px;
+    height: 75px;
+}
+
+
+.logo{
+    font-size: 40px;
+    font-family: 'Smooch';
+    color: azure;
+    padding-top: 10px;
+    float: left;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px ;  
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 27px 67px;
+    /* position: relative; */
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover{
+    color:violet;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 340px;
+
+}
+
+.searchbar{
+    float: left;
+    width: 200px;
+    height: 40px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    margin-top: 13px;
+    padding: 10px;
+    color:white;
+    background: transparent;
+    border: 2px solid rgb(211, 115, 211);
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.searchbar ::placeholder{
+    color: black;
+}
+
+.btn{
+    width: 100px ;
+    height: 40px;
+    background: rgb(238, 108, 238) ;
+    color: white;
+    font-size: 15px;
+    margin-top: 13px;
+    border: 2px solid rgb(211, 115, 211) ;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.searchbar:focus{
+    outline:none
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    color: white;
+}
+.content h1{
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    letter-spacing: 2px ;
+    margin-top: 9%;
+    padding-left: 20px;
+
+
+
+
+}
+
+.content .description{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px ;
+    line-height: 30px ;
+}
+
+.contactbtn{
+    width: 160px ;
+    height: 40px;
+    background: rgb(17, 185, 177);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.contactbtn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.contactbtn:hover{
+    background: white;
+    color: black;
+}
+
+.content span{
+    color: rgb(119, 176, 180);
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    border-radius: 10px ;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px ;
+    left: 870px ;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(90, 39, 82);
+    font-size: 22px;
+    background-color: #fff;
+    margin: 2px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    font-family: sans-serif;
+    border-bottom: 1px solid purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top : 30px;
+
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: sans-serif;
+}
+
+.Loginbtn{
+    background: rgb(241, 141, 241) ;
+    width: 240px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.Loginbtn:hover{ 
+    background: white;
+    color: black;
+}
+
+.Loginbtn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: rgb(38, 228, 253);
+
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: .3s ease;
+}
+
+.icons ion-icon:hover{
+    color: violet;
+    height: 37px;
+    width: 37px;
+}
